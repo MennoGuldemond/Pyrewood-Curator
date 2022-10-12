@@ -1,0 +1,32 @@
+{
+  "name": "pyrewood-curator",
+  "version": "1.0.0",
+  "description": "A discord bot that manages wow raid schedules and crafters information, stored in Google sheets.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy-commands": "node deploy-commands.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MennoGuldemond/Pyrewood-Curator.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "wow"
+  ],
+  "author": "Menno Guldemond",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MennoGuldemond/Pyrewood-Curator/issues"
+  },
+  "homepage": "https://github.com/MennoGuldemond/Pyrewood-Curator#readme",
+  "dependencies": {
+    "@discordjs/builders": "^1.3.0",
+    "@discordjs/rest": "^1.3.0",
+    "discord-api-types": "^0.37.12",
+    "discord.js": "^14.6.0",
+    "googleapis": "^108.0.0"
+  }
+}
